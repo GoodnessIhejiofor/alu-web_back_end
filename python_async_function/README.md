@@ -1,9 +1,9 @@
-# Python - Async
+# Python - Async_Function
 
-## Description
+## Resources
 
-asyncio is a library to write concurrent code using the async/await syntax.
+## Read or watch:
 
-asyncio is used as a foundation for multiple Python asynchronous frameworks that provide high-performance network and web-servers, database connection libraries, distributed task queues, etc.
-
-asyncio is often a perfect fit for IO-bound and high-level structured network code.
+Async IO in Python: A Complete Walkthrough
+asyncio - Asynchronous I/O
+random.uniform
