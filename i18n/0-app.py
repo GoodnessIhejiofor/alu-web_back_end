@@ -3,7 +3,7 @@
 0x0A. i18n
 """
 from os import getenv
-from flask import Flask, render_template
+from flask import Flask, render_template # type: ignore
 
 app = Flask(__name__)
 
