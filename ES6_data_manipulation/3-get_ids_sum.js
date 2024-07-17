@@ -1,7 +1,6 @@
-export default function getStudentsByLocation(arrOfStudentIds, city) {
-  const arr = [];
-  if (Array.isArray(arrOfStudentIds) && typeof city === 'string') {
-    return arrOfStudentIds.filter((student) => student.location === city);
+export default function getStudentIdsSum(arrOfStudentObjs) {
+  if (Array.isArray(arrOfStudentObjs)) {
+    return arrOfStudentObjs.reduce((acc, currObj) => acc + currObj.id, 0);
   }
-  return arr;
+  return 0;
 }
